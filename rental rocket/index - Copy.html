@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rental Rocket</title>
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+     
+</head>
+
+<body>
+    <header>
+        <a href="#" class="logo"><img src="img/rentalrocket.png" alt=""></a>
+        <div class="bx bx-menu" id="menu-icon"></div>
+        <ul class="navbar">
+            <li><a href="#Home">Home</a></li>
+            <li><a href="#ride">Ride</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#review">Review</a></li>
+
+       
+        </ul>
+        <div class="header-btn">
+            <a href="#" class="sign-up">Sign up</a>
+            <a href="#" class="sign-in">Sign in</a>
+            >
+            
+        </div>
+    </header>
+    <section class="home" id="home">
+        <div class="text">
+            <h1><span>Looking </span>to <br>rent a bike</h1>
+            <p>“Riding a bike is not just about the journey, but the freedom it brings.
+                 Renting one is the first step to discovering new paths and endless adventures.” — Abhay Baghel 🚴‍♂️✨🚴‍♂️</p>
+            <div class="app-stores">
+                <img src="img/ios.png" alt="">
+                <img src="img/512x512.png" alt="">
+            </div>
+        </div>
+        <div class="form-container">
+            <form action="https://formspree.io/f/movqqwdz" method="POST" id="rental-form">
+                <div class="input-box">
+                    <span>Location</span>
+                    <input type="search" name="location" placeholder="Search Places" required>
+                </div>
+                <div class="input-box">
+                    <span>Pick-up Date</span>
+                    <input type="date" name="pickup_date" required>
+                </div>
+                <div class="input-box">
+                    <span>Return Date</span>
+                    <input type="date" name="return_date" required>
+                </div>
+                <input type="submit" class="btn">
+                <p id="thank-you-message" style="display:none; color: green;">Thank you for your submission!</p>
+            </form>
+        </div>
+
+    </section>
+    <section class="ride" id="ride">
+        <div class="heading">
+            <span>How it Works</span>
+            <h1>Rent with 3 easy Steps</h1>
+            <div class="ride-container">
+            <div class="box">
+                <i class="bx bxs-map"></i>
+                <h2>Choose a Location</h2>
+                </p>choose the sutable location where your destination belongs to...</p>
+            </div>
+            <div class="box">
+                <i class='bx bxs-calendar-check'></i>
+                <h2>Pick-up date</h2>
+                <p>select the suitable date of the day you are going on</p>
+            </div>
+            <div class="box">
+                <i class='bx bxs-calendar-star'></i>
+                <h2>Book a Bike</h2>
+                <p>Select the bike and book it and Enjoy the ride</p>
+            </div>
+            </div>
+        </div>
+
+    </section>
+    <section class="services" id="services">
+        <div class="heading">
+            <span>Best Services</span>
+            <h1>Explore Out Top Rides<br> From Top Rated Dealers</h1>
+        </div>
+        <div class="services-container">
+            <div class="box">
+                <div class="box-img">
+                    <img src="img/home.png" alt="">
+                </div>
+                <p>2018</p>
+                <h3>Harley Davidson livewire</h3>
+                <h2>₹585000 | ₹35000<span>/month</span></h2>
+                <a href="#" class="btn">Rent Now</a>
+            </div>
+            <div class="box">
+                <div class="box-img">
+                    <img src="img/car2.jpg" alt="">
+                </div>
+                <p>2024</p>
+                <h3>2024 Hero Splender+ black</h3>
+                <h2>₹90500 | ₹1100<span>/month</span></h2>
+                <a href="#" class="btn">Rent Now</a>
+            </div>
+            <div class="box">
+                <div class="box-img">
+                    <img src="img/car3.jpg" alt="">
+                </div>
+                <p>2024</p>
+                <h3>2023 Royal Enfield Himalayan</h3>
+                <h2>₹103000 | ₹5000<span>/month</span></h2>
+                <a href="#" class="btn">Rent Now</a>
+            </div>
+            <div class="box">
+                <div class="box-img">
+                    <img src="img/car4.jpg" alt="">
+                </div>
+                <p>2020</p>
+                <h3>Kawasaki 2021 Ninja 650</h3>
+                <h2>₹1000000 | ₹35000<span>/month</span></h2>
+                <a href="#" class="btn">Rent Now</a>
+            </div>
+            <div class="box">
+                <div class="box-img">
+                    <img src="img/car5.jpg" alt="">
+                </div>
+                <p>2018</p>
+                <h3>Bajaj Avenger Cruise 220</h3>
+                <h2>₹59500 | ₹4000<span>/month</span></h2>
+                <a href="#" class="btn">Rent Now</a>
+            </div>
+            <div class="box">
+                <div class="box-img">
+                    <img src="img/car6.png" alt="">
+                </div>
+                <p>2023</p>
+                <h3>Honda scoopy scooter 300 cc</h3>
+                <h2>₹595000 | ₹40020<span>/month</span></h2>
+                <a href="#" class="btn">Rent Now</a>
+        </div>
+        <div class="box">
+            <div class="box-img">
+                <img src="img/bike-7.png" alt="">
+            </div>
+            <p>2022</p>
+            <h3>Yamaha XMAX300</h3>
+            <h2>₹595000 | ₹41000<span>/month</span></h2>
+            <a href="#" class="btn">Rent Now</a>
+    </section>
+    <section class="about" id="about">
+        <div class="heading">
+            <span>About Us</span>
+            <h1>Besst Customer Experience</h1>
+        </div>
+        <div class="about-container">
+            <div class="about-img">
+                <img src="img/about.png" alt="">
+            </div>
+            <div class="about-text">
+             <span>About Us</span>
+             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores, debitis provident. Optio alias deleniti atque excepturi, a repellendus tempore ad iste recusandae reprehenderit unde, velit aut, tempora beatae numquam. Blanditiis quasi quibusdam architecto dignissimos.</p>
+             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis enim cupiditate et blanditiis doloremque est architecto unde quos. Alias distinctio natus aspernatur aliquam est optio error ab illum atque sint.</p>
+             <a href="#" class="btn">Learn More</a>
+
+
+            </div>
+        </div>
+    </section>
+    <section id="review" class="review">
+        <div class="heading">
+            <span>Reviews</span>
+            <h1>Whats Our Costumer Say</h1>
+        </div>
+        <div class="reviews-container">
+            <div class="box">
+            <div class="rev-img">
+                <img src="img/rev1.jpg" alt="">
+            </div>
+            <h2>piyush tiwari</h2>
+            <div class="stars">
+                <i class="bx bxs-star"></i>
+                <i class="bx bxs-star"></i>
+                <i class="bx bxs-star"></i>
+                <i class="bx bxs-star"></i>
+                <i class="bx bxs-star-half"></i>
+            </div>
+            <p>This website to rent bike is amazing and very special feeling to rent bikes </p>
+        </div>
+
+        <div class="box">
+            <div class="rev-img">
+                <img src="img/rev2.jpg" alt="">
+            </div>
+            <h2>Elvish Yadav</h2>
+            <div class="stars">
+                <i class="bx bxs-star"></i>
+                <i class="bx bxs-star"></i>
+                <i class="bx bxs-star"></i>
+                <i class="bx bxs-star"></i>
+                <i class="bx bxs-star-half"></i>
+            </div>
+            <p>I tried first time bike rental Systumm! and my Systumm got Hang I reached early at my rave Party thanks ::</p>
+        </div>
+
+
+        <div class="box">
+            <div class="rev-img">
+                <img src="img/rev3.jpg" alt="">
+            </div>
+            <h2>Tanushi Singh</h2>
+            <div class="stars">
+                <i class="bx bxs-star"></i>
+                <i class="bx bxs-star"></i>
+                <i class="bx bxs-star"></i>
+                <i class="bx bxs-star"></i>
+                <i class="bx bxs-star-half"></i>
+            </div>
+            <p>As being [CR] of the class I have to be early in lectures to maintain decorum .And I used this bike rental made my work easy <br> first ride free </p>
+        </div>
+
+        
+        </div>
+    </section>
+    <section class="newsletter">
+        <h2>Subscribe to Abhay website</h2>
+        <form action="https://formspree.io/f/movqqwdz" method="POST" id="subscribe-form">
+            <div class="box">
+                <input type="email" name="email" placeholder="Enter Your Email..." required>
+                <button type="submit" class="btn">Subscribe</button>
+                <p id="thank-you-message" style="display:none;">Thank you for subscribing!</p>
+            </div>
+        </form>
+    </section>
+    
+    
+    
+    <div class="copyright">
+        <p>&#169; Abhay.himself All Right Reserved</p>
+        <div class="social"></div>
+        <a href="#"><i class="bx bxl-facebook"></i></a>
+        <a href="#"><i class="bx bxl-youtube"></i></a>
+        <a href="#"><i class="bx bxl-instagram"></i></a>
+        </div>
+    </div>
+    
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="main.js"></script>
+
+</body>
+</html>
